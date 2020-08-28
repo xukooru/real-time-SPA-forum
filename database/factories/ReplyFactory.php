@@ -2,10 +2,10 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Model\Relpy;
+use App\Model\Reply;
 use Faker\Generator as Faker;
 
-$factory->define(Relpy::class, function (Faker $faker) {
+$factory->define(Reply::class, function (Faker $faker) {
     return [
         //
     ];

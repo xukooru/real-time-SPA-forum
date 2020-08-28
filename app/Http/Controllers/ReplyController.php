@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Relpy;
+use App\Model\Reply;
 use Illuminate\Http\Request;
 
-class RelpyController extends Controller
+class ReplyController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class RelpyController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Model\Relpy  $relpy
+     * @param  \App\Model\Reply  $reply
      * @return \Illuminate\Http\Response
      */
-    public function show(Relpy $relpy)
+    public function show(Reply $reply)
     {
         //
     }
@@ -52,10 +52,10 @@ class RelpyController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Model\Relpy  $relpy
+     * @param  \App\Model\Reply  $reply
      * @return \Illuminate\Http\Response
      */
-    public function edit(Relpy $relpy)
+    public function edit(Reply $reply)
     {
         //
     }
@@ -64,10 +64,10 @@ class RelpyController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Model\Relpy  $relpy
+     * @param  \App\Model\Reply  $reply
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Relpy $relpy)
+    public function update(Request $request, Reply $reply)
     {
         //
     }
@@ -75,10 +75,10 @@ class RelpyController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Model\Relpy  $relpy
+     * @param  \App\Model\Reply  $reply
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Relpy $relpy)
+    public function destroy(Reply $reply)
     {
         //
     }
