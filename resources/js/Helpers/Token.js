@@ -3,7 +3,7 @@ class Token {
     isValid(token){
         const payload = this.payload(token);
         if(payload){
-            return payload.iss === "http://novaforum.mv/api/auth/login" ? true : false
+            return !!(payload.iss === "http://novaforum.mv/api/auth/login" || "http://novaforum.mv/api/auth/signup")
         }
         return false
     }
